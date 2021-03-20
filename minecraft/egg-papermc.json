@@ -4,10 +4,10 @@
         "version": "PTDL_v1",
         "update_url": null
     },
-    "exported_at": "2021-02-07T17:18:21-05:00",
-    "name": "Custom PaperMC Egg by Saqib",
+    "exported_at": "2021-03-20T15:03:03-04:00",
+    "name": "Custom Paper",
     "author": "saqib@yuuta.xyz",
-    "description": "Advanced PaperMC egg",
+    "description": "custom paper egg",
     "features": null,
     "images": [
         "quay.io\/saqibb\/papermc-egg:latest"
@@ -15,8 +15,8 @@
     "file_denylist": "",
     "startup": ".\/start.sh",
     "config": {
-        "files": "{}",
-        "startup": "{}",
+        "files": "{\r\n    \"server.properties\": {\r\n        \"parser\": \"properties\",\r\n        \"find\": {\r\n            \"server-ip\": \"0.0.0.0\",\r\n            \"server-port\": \"{{server.build.default.port}}\"\r\n        }\r\n    }\r\n}",
+        "startup": "{\r\n    \"done\": \")! For help, type \",\r\n    \"userInteraction\": [\r\n        \"Go to eula.txt for more info.\"\r\n    ]\r\n}",
         "logs": "{}",
         "stop": "stop"
     },
